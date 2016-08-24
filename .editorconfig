@@ -1,0 +1,45 @@
+# EditorCofing: http://editorconfig.org
+# see doc/coding_standards.md
+
+root = true
+
+# C,C++
+[*.{c,h,cpp}]
+indent_style = tab
+indent_size = 8
+
+[*]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Dockerfile
+[Dockerfile]
+indent_style = space
+indent_size = 2
+
+# docker-compose
+[docker-compose.yml]
+indent_size = space
+indent_size = 2
+
+# Golang
+[*.go]
+indent_style = space
+indent_size = 4
+
+# JSON
+[*.json]
+indent_style = space
+indent_size = 4
+
+# MarkDown
+[*.{md,markdown}]
+indent_style = space
+trim_trailing_whitespace = false
+
+# Python
+[*.py]
+indent_style = tab
+indent_size = 4
